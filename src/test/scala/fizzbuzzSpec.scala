@@ -1,10 +1,10 @@
 import fizzbuzz.FizzBuzzer
-import org.scalaTest._
+import org.scalatest._
 
-class fizzbuzzSpec extends FlatSpec with Matchers {
+class BabysitterSpec extends FlatSpec with Matchers {
   val fizzandbuzz = FizzBuzzer
 
   "Fizzbuzz" should "return an int given it" in {
   fizzandbuzz(1) shouldBe 1
-    } 
+    }
 }
