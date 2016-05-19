@@ -6,5 +6,7 @@ class BabysitterSpec extends FlatSpec with Matchers {
 
   "Fizzbuzz" should "return an int given it" in {
   fizzandbuzz(1) shouldBe 1
+  fizzandbuzz(2) shouldBe 2
     }
+
 }
