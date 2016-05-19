@@ -14,5 +14,9 @@ class BabysitterSpec extends FlatSpec with Matchers {
     fizzandbuzz(6) shouldBe "fizz"
   }
 
+  "Fizzbuzz" should "return buzz when given multiples of 5" in {
+    fizzandbuzz(5) shouldBe "buzz"
+    fizzandbuzz(10) shouldBe "buzz"
+  }
 
 }
