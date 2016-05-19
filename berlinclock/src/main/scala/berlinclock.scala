@@ -2,8 +2,8 @@ package berlinclock
 
 object Main{
 
-  def apply () : String = {
-    Pass
+  def apply (time: Int) : Int = {
+    return time
   }
 
 }
