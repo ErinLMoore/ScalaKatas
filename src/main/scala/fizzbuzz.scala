@@ -9,6 +9,7 @@ object FizzBuzzer{
     case 12 => "fizz"
     case 5 => "buzz"
     case 10 => "buzz"
+    case 0 => "fizzbuzz"
 
     case _ => "" + input
   }
