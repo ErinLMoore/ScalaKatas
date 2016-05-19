@@ -2,14 +2,10 @@ package fizzbuzz
 
 object FizzBuzzer{
 
-  def apply (input:Int) : String = (input % 15) match {
-    case 3 => "fizz"
-    case 6 => "fizz"
-    case 9 => "fizz"
-    case 12 => "fizz"
-    case 5 => "buzz"
-    case 10 => "buzz"
-    case 0 => "fizzbuzz"
+  def apply (input:Int) : String = input match {
+    case x if (x % 15 == 0) => "fizzbuzz"
+    case x if (x % 5  == 0) => "buzz"
+    case x if (x % 3  == 0) => "fizz"
 
     case _ => "" + input
   }
