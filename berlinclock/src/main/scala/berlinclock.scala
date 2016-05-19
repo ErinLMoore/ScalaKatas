@@ -1,8 +1,8 @@
 package berlinclock
 
-object FizzBuzzer{
+object Main{
 
-  def Main () : String = {
+  def apply () : String = {
     Pass
   }
 
