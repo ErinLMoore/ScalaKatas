@@ -9,6 +9,7 @@ class berlinclockSpec extends FlatSpec with Matchers {
       berliner(1) shouldBe 1
       berliner(2) shouldBe 2
       berliner(3) shouldBe 3
+      berliner(5) shouldBe 0
     }
 
 }
