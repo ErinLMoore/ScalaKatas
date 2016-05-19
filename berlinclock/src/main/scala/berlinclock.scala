@@ -2,7 +2,7 @@ package berlinclock
 
 object Main{
 
-  def apply (time: Int) : Int = {
+  def single_minute_row (time: Int) : Int = {
     return time % 5
   }
 
